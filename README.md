@@ -8,3 +8,4 @@ html+css+js
 ## To do:
 - pagination
 - drag&drop
+- Use WebStorage APIs to store favourite items
