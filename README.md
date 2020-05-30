@@ -1,5 +1,5 @@
 # crudapp
 html+css+js
-create,read,update,delete movie items list
-working on:
+<p>create,read,update,delete movie items list</p>
+not finished:
 css, pagination, reorder
