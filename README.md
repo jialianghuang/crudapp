@@ -1,8 +1,10 @@
 # assignment3 crudapp
 html+css+js
-## function
+## Function
+- fetch data
 - create,read,update,delete
-- Avaliable items to be added into favourite list
+- add item into favourite list
+- check favorite list
 ## To do:
 - pagination
 - drag&drop
