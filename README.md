@@ -1,4 +1,4 @@
-# assignment3 crudapp
+# Assignment3 CRUD App
 html+css+js
 ## Function
 - fetch data
