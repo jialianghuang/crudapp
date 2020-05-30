@@ -1,12 +1,12 @@
 # Assignment3 CRUD App
-html+css+js
+
 ## Function
-- fetch data
-- create,read,update,delete
-- add item into favourite list
-- check favorite list
+- Fetch data
+- Create,read,update,delete
+- Add item into favourite list
+- Check favorite list
 ## To do:
-- pagination
-- drag&drop
-- reorder list
+- Pagination
+- Drag&drop
+- Reorder list
 - Use WebStorage APIs to store favourite items
