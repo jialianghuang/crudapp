@@ -86,9 +86,11 @@ function setEditBtn(){
 function SetAddBtn(){
       const addbtn =  document.querySelector("#additem")
       addbtn.addEventListener("click",function(){
+      let additem = document.querySelector("#editor")
+      if(additem.value){
       let child = document.createElement("li")
       child.className = "dragitems"
-      child.textContent = document.querySelector("#editor").value
+      child.textContent = additem.value
       let editbtn = document.createElement("button")
       editbtn.className = "editbtn"
       editbtn.innerText = "edit"
@@ -104,7 +106,8 @@ function SetAddBtn(){
       setFav(favobtn)
       child.appendChild(favobtn)
       draggables.prepend(child)
-      document.querySelector("#editor").value = ""
+      additem.value = ""
+      }
     })
 }
 
