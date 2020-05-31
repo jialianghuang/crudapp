@@ -10,3 +10,5 @@
 - Drag&drop
 - Reorder list
 - Use WebStorage APIs to store favourite items
+
+demo: https://jialianghuang.github.io/crudapp
