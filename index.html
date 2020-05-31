@@ -1,19 +1,28 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <link href = "css/style.css" rel = "stylesheet" type="text/css">
+<link href = "css/style.css" rel = "stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="container">
-<input id = "editor">
+<h1>CRUD APP</h1>
+<button id="myBtn">Show Favorite</button>
 <h3>add to your list</h3> 
+<input class="textinput" id = "editor">
 <button id = "additem">add</button>
 <h3>edit current list</h3>
-<input id = "edit">
+<input  class="textinput" id = "edit">
 <h3>List</h3>
 <ol id = "movielist"></ol>
 </div>
-
+<div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Favorite List</p>
+      <ol id = "favlist"></ol>
+    </div>
+  </div>
 </body>
 <script src = "js/script.js"></script>
 </html>
